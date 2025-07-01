@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "aws-podcast",
+  "keywords": [
+    "podcast"
+  ],
+  "homepage": "https://github.com/ARYPAT2005/AWS-Podcast#readme",
+  "bugs": {
+    "url": "https://github.com/ARYPAT2005/AWS-Podcast/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARYPAT2005/AWS-Podcast.git"
+  },
+  "license": "ISC",
+  "author": "Aryan",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.840.0"
+  }
+}
