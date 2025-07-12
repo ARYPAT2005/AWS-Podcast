@@ -168,8 +168,8 @@ export default function Podcasts() {
       { /*Grid for the podcast*/ }
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {dataResponse.length > 0 ? (
-          filteredPodcasts.map((podcast) => (
-            <Card className="hover:shadow-lg transition-shadow">
+          filteredPodcasts.map((podcast, index) => (
+            <Card key={ index } className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden mb-4">
                   {podcast.photoKey ? (
