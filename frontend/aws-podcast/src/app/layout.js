@@ -1,12 +1,19 @@
+"use client"
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 import { ThemeProvider } from "./components/theme-provider.js";
-
+import { useAuthStore } from "@/store/authstore";
+import { useEffect } from "react"
+import { jwtDecode } from 'jwt-decode';
 
 
 export default function RootLayout({ children }) {
+  const { checkAuth } = useAuthStore();
+  useEffect(() => {
+    checkAuth()
+  },[checkAuth])
   return (
     <html lang="en" suppressHydrationWarning>
       <body>

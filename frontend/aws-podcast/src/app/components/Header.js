@@ -1,17 +1,19 @@
 "use client"
 
 import Link from "next/link"
-import { useState, useEffect } from "react"
+import { useState, useEffect, use } from "react"
 import { ModeToggle } from "./ModeToggle"
 import { MdOutlinePodcasts } from "react-icons/md"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
+import { useAuthStore } from "@/store/authstore";
+import { fromTheme } from "tailwind-merge"
 
 export default function Header() {
   const [mounted, setMounted] = useState(false)
   const pathname = usePathname()
-
+  const { isAuthenticated, logout } = useAuthStore();
   useEffect(() => {
     setMounted(true)
   }, [])
@@ -46,20 +48,31 @@ export default function Header() {
             </div>
           </div>
           <div className="flex items-center gap-4 ml-auto">
-            <div className="hidden sm:flex items-center gap-2">
-              <Button variant="ghost" size="sm" asChild>
-                <Link href="/login">Sign In</Link>
-              </Button>
-              <Button variant="ghost" size="sm" asChild>
-                <Link href="/register">Get Started</Link>
-              </Button>
-            </div>
-            <div className="flex sm:hidden items-center gap-2">
-              <Button variant="ghost" size="sm" asChild>
-                <Link href="/login">Login</Link>
-              </Button>
-            </div>
-
+          
+                <div className="flex items-center gap-2">
+                {!isAuthenticated ? (
+                  <>
+                    <div className="hidden sm:flex items-center gap-2">
+                      <Button variant="ghost" size="sm" asChild>
+                        <Link href="/login">Sign In</Link>
+                      </Button>
+                      <Button variant="ghost" size="sm" asChild>
+                        <Link href="/register">Get Started</Link>
+                      </Button>
+                    </div>
+                    <div className="flex sm:hidden items-center gap-2">
+                      <Button variant="ghost" size="sm" asChild>
+                        <Link href="/login">Login</Link>
+                      </Button>
+                    </div>
+                  </>
+                ) : (
+                  <Button variant="ghost" size="sm" onClick={logout}>
+                      Logout
+                  </Button>
+                )}
+                </div>
+                
             <div className="flex items-center">
               <ModeToggle />
             </div>
@@ -74,24 +87,6 @@ export default function Header() {
             )}
           >
             Podcasts
-          </Link>
-          <Link
-            href="/discover"
-            className={cn(
-              "text-sm font-medium transition-colors hover:text-primary",
-              pathname === "/discover" ? "text-foreground" : "text-muted-foreground",
-            )}
-          >
-            Discover
-          </Link>
-          <Link
-            href="/library"
-            className={cn(
-              "text-sm font-medium transition-colors hover:text-primary",
-              pathname === "/library" ? "text-foreground" : "text-muted-foreground",
-            )}
-          >
-            Library
           </Link>
         </div>
       </nav>

@@ -3,6 +3,7 @@ import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
 import { Play, TrendingUp, Users, Clock, Headphones, Mic, Radio } from "lucide-react"
 import { Fade } from "react-awesome-reveal";
+import Link from "next/link"
 
 export default function Home() {
   const { setTheme } = useTheme()
@@ -17,17 +18,20 @@ export default function Home() {
               <span className="text-primary block">Favorite Podcast</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Explore thousands of podcasts across every genre. From true crime to tech talks, find the perfect audio
-              content for your interests.
+              Explore podcasts across every genre. Discover audio content that matches your interests and helps creators thrive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/podcasts">
               <Button size="lg" className="text-lg px-8 py-6">
-                <Play className="mr-2 h-5 w-5" />
-                Start Listening
+                  <Play className="mr-2 h-5 w-5" />
+                  Start Listening
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 bg-transparent">
-                Sign Up Free
-              </Button>
+              </Link>
+              <Link href="/register">
+                <Button variant="outline" size="lg" className="text-lg px-8 py-6 bg-transparent">
+                  Sign Up Free
+                </Button>
+              </Link>
             </div>
           </div>
         </section>
