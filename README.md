@@ -13,7 +13,7 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 
 | Layer        | Tools & Services                                   |
 | :----------- | :------------------------------------------------  |
-| Frontend     | React, Next.js, Tailwind CSS, ShadCN UI            |
+| Frontend     | React, Next.js, Tailwind CSS, Shadcn               |
 | Backend      | API Gateway + AWS Lambda                           |
 | Storage      | AWS S3 (videos and thumbnails), DynamoDB (metadata)|
 | Auth         | AWS Cognito                                        |
