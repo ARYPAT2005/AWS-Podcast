@@ -4,14 +4,21 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 
 ## AWS Cloud Architecture Overview:
 - Leveraged **AWS Lambda** for scalable, event-driven backend processing to smoothly handle fluctuating traffic
-
 - Employed **AWS DynamoDB** as a high-performance NoSQL database for storing podcast metadata and tracking uploads
-
 - Utilized **AWS S3** with partitioned storage to efficiently manage and deliver podcast files and media assets
-
 - Hosted frontend and backend applications on **AWS EC2** to ensure reliability and flexibility
-
 - Implemented **AWS Cognito** for robust, scalable user authentication and authorization
+  
+## Tech Stack
+
+| Layer        | Tools & Services                                   |
+| :----------- | :------------------------------------------------  |
+| Frontend     | React, Next.js, Tailwind CSS                       |
+| Backend      | API Gateway + AWS Lambda                           |
+| Storage      | AWS S3 (videos and thumbnails), DynamoDB (metadata)|
+| Auth         | AWS Cognito                                        |
+| Hosting      | AWS EC2                                            |
+| Media Upload | Utilized S3 pre-signed URLs                        |
 
 
 
