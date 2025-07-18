@@ -30,20 +30,21 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 
 
 ## Screenshots
-<figure>
- <img width="1277" height="662" alt="image" src="https://github.com/user-attachments/assets/0fc1790e-7570-485b-911f-8d7dcb652f3e" />
-  <figcaption style="text-align: center;"><strong>Homepage</strong></figcaption>
+<figure style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/0fc1790e-7570-485b-911f-8d7dcb652f3e" alt="Homepage" style="width: 30%; display: block; margin: auto;" />
+  <figcaption><strong>Homepage</strong></figcaption>
 </figure>
 
-<figure>
-  <img width="1278" height="658" alt="image" src="https://github.com/user-attachments/assets/ce7b3a08-9fa2-43af-8558-e0022df02adf" />
-  <figcaption style="text-align: center;"><strong>Signup Page</strong></figcaption>
+<figure style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/ce7b3a08-9fa2-43af-8558-e0022df02adf" alt="Signup Page" style="width: 70%; display: block; margin: auto;" />
+  <figcaption><strong>Signup Page</strong></figcaption>
 </figure>
 
-<figure>
-  <img width="1272" height="671" alt="image" src="https://github.com/user-attachments/assets/68b0f490-5be4-43e8-88cb-8c5d7892bc00" />
-  <figcaption style="text-align: center;"><strong>Login Page</strong></figcaption>
+<figure style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/68b0f490-5be4-43e8-88cb-8c5d7892bc00" alt="Login Page" style="width: 70%; display: block; margin: auto;" />
+  <figcaption><strong>Login Page</strong></figcaption>
 </figure>
+
 
 
 
