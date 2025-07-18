@@ -57,7 +57,7 @@ Lambda Functions used:
 <img width="853" height="227" alt="image" src="https://github.com/user-attachments/assets/2798f8b2-80b5-417c-9d0b-e95dbc657849" />
 
 API Gateway:
-<img width="222" height="514" alt="image" src="https://github.com/user-attachments/assets/1d5ca6df-5fbf-4722-893f-9c4fdb28c86d" />
+<img width="1059" height="438" alt="image" src="https://github.com/user-attachments/assets/fffdbe10-b338-419e-b3ca-6d81a22dd958" />
 
 
 Amazon S3 Bucket Used:
