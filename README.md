@@ -59,6 +59,10 @@ Lambda Functions used:
 API Gateway:
 <img width="1059" height="438" alt="image" src="https://github.com/user-attachments/assets/fffdbe10-b338-419e-b3ca-6d81a22dd958" />
 
+AWS Cognito:
+<img width="1062" height="278" alt="image" src="https://github.com/user-attachments/assets/53042fd9-ed37-4898-9eab-6adc2d05ebad" />
+
+
 
 Amazon S3 Bucket Used:
 <img width="1069" height="293" alt="image" src="https://github.com/user-attachments/assets/aaffa5b3-d716-415f-952d-619724d826f5" />
