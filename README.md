@@ -20,6 +20,15 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 | Hosting      | AWS EC2                                            |
 | Media Upload | Utilized S3 pre-signed URLs                        |
 
+## Features
+- Dark Mode: Comfortable viewing with light/dark theme toggle
+- Smart Search: Quickly find podcasts, episodes, or topics using keyword-based search
+- Video metadata (titles, descriptions, thumbnails)
+- User authentication
+
+
+
+
 
 
 
