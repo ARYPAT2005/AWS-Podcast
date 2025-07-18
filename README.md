@@ -23,8 +23,9 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 ## Features
 - Dark Mode: Comfortable viewing with light/dark theme toggle
 - Smart Search: Quickly find podcasts, episodes, or topics using keyword-based search
-- Video metadata (titles, descriptions, thumbnails)
-- User authentication
+- Video Metadata: Support for titles, descriptions, and thumbnails
+- User Authentication: Secure signup and login powered by AWS Cognito
+- Video Uploading: Upload podcast videos and audio files securely using S3 pre-signed URLs
 
 ## Video
 
