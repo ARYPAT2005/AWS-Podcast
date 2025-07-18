@@ -32,11 +32,11 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 
 ## Screenshots
 <figure style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/0fc1790e-7570-485b-911f-8d7dcb652f3e" alt="Homepage" style="width: 60%; display: block; margin: auto;" />
+  <img src="https://github.com/user-attachments/assets/0fc1790e-7570-485b-911f-8d7dcb652f3e" alt="Homepage" style="width: 50%; display: block; margin: auto;" />
 </figure>
 
 <figure style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/ce7b3a08-9fa2-43af-8558-e0022df02adf" alt="Signup Page" style="width: 60%; display: block; margin: auto;" />
+  <img src="https://github.com/user-attachments/assets/ce7b3a08-9fa2-43af-8558-e0022df02adf" alt="Signup Page" style="width: 50%; display: block; margin: auto;" />
 </figure>
 
 <figure style="text-align: center;">
