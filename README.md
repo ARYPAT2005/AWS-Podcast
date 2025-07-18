@@ -26,6 +26,11 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 - Video metadata (titles, descriptions, thumbnails)
 - User authentication
 
+## Video
+
+
+## Screenshots
+
 
 
 
