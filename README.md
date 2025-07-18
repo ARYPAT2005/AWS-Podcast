@@ -32,23 +32,23 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 
 ## Screenshots
 <figure style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/0fc1790e-7570-485b-911f-8d7dcb652f3e" alt="Homepage" style="width: 40%; display: block; margin: auto;" />
+  <img src="https://github.com/user-attachments/assets/0fc1790e-7570-485b-911f-8d7dcb652f3e" alt="Homepage" style="width: 60%; display: block; margin: auto;" />
 </figure>
 
 <figure style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/ce7b3a08-9fa2-43af-8558-e0022df02adf" alt="Signup Page" style="width: 40%; display: block; margin: auto;" />
+  <img src="https://github.com/user-attachments/assets/ce7b3a08-9fa2-43af-8558-e0022df02adf" alt="Signup Page" style="width: 60%; display: block; margin: auto;" />
 </figure>
 
 <figure style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/68b0f490-5be4-43e8-88cb-8c5d7892bc00" alt="Login Page" style="width: 40%; display: block; margin: auto;" />
+  <img src="https://github.com/user-attachments/assets/68b0f490-5be4-43e8-88cb-8c5d7892bc00" alt="Login Page" style="width: 60%; display: block; margin: auto;" />
 </figure>
 
 <figure style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/4232c17f-87a6-4524-bfac-9d72a4478961" alt="Page Preview" style="width: 40%; display: block; margin: auto;"/>
+  <img src="https://github.com/user-attachments/assets/4232c17f-87a6-4524-bfac-9d72a4478961" alt="Page Preview" style="width: 60%; display: block; margin: auto;"/>
 </figure>
 
 <figure style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/3af404f2-4392-464b-81c4-fda004532ede" alt="Upload Page" style="width: 40%; display: block; margin: auto;" />
+  <img src="https://github.com/user-attachments/assets/3af404f2-4392-464b-81c4-fda004532ede" alt="Upload Page" style="width: 60%; display: block; margin: auto;" />
 </figure>
 
 
