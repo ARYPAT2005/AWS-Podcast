@@ -32,11 +32,11 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 
 ## Screenshots
 <figure style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/0fc1790e-7570-485b-911f-8d7dcb652f3e" alt="Homepage" style="width: 50%; display: block; margin: auto;" />
+  <img src="https://github.com/user-attachments/assets/0fc1790e-7570-485b-911f-8d7dcb652f3e" alt="Homepage" style="width: 60%; display: block; margin: auto;" />
 </figure>
 
 <figure style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/ce7b3a08-9fa2-43af-8558-e0022df02adf" alt="Signup Page" style="width: 50%; display: block; margin: auto;" />
+  <img src="https://github.com/user-attachments/assets/ce7b3a08-9fa2-43af-8558-e0022df02adf" alt="Signup Page" style="width: 60%; display: block; margin: auto;" />
 </figure>
 
 <figure style="text-align: center;">
@@ -50,6 +50,31 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 <figure style="text-align: center;">
   <img src="https://github.com/user-attachments/assets/3af404f2-4392-464b-81c4-fda004532ede" alt="Upload Page" style="width: 60%; display: block; margin: auto;" />
 </figure>
+
+## AWS Screenshots
+
+Lambda Functions used:
+<img width="853" height="227" alt="image" src="https://github.com/user-attachments/assets/2798f8b2-80b5-417c-9d0b-e95dbc657849" />
+
+API Gateway:
+<img width="222" height="514" alt="image" src="https://github.com/user-attachments/assets/1d5ca6df-5fbf-4722-893f-9c4fdb28c86d" />
+
+
+Amazon S3 Bucket Used:
+<img width="1069" height="293" alt="image" src="https://github.com/user-attachments/assets/aaffa5b3-d716-415f-952d-619724d826f5" />
+<img width="1041" height="327" alt="image" src="https://github.com/user-attachments/assets/10bcc4c6-261a-448f-a73f-c9a71ba78f19" />
+<img width="1044" height="332" alt="image" src="https://github.com/user-attachments/assets/fe974ccf-1a63-4734-b0dd-68109f725c81" />
+
+
+
+DynamoDB metadata:
+<img width="1060" height="170" alt="image" src="https://github.com/user-attachments/assets/e523555f-cecf-4dea-af5f-d62fdf14b314" />
+<img width="792" height="216" alt="image" src="https://github.com/user-attachments/assets/1ccb27d1-05a8-4749-94a0-1d93d8b15776" />
+
+
+
+
+
 
 
 
