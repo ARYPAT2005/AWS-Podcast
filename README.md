@@ -30,6 +30,12 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 
 
 ## Screenshots
+<figure>
+  <img width="1280" height="631" src="https://github.com/user-attachments/assets/694c4f65-7709-43a0-b5a6-46ad965b7ee7" alt="Homepage after user login">
+  <figcaption><strong>Figure 1.</strong>Homepage</figcaption>
+</figure>
+
+
 
 
 
