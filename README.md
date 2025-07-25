@@ -27,8 +27,8 @@ Podverse is a modern, feature-rich podcast platform designed to make discovering
 - User Authentication: Secure signup and login powered by AWS Cognito
 - Video Uploading: Upload podcast videos and audio files securely using S3 pre-signed URLs
 
-## Video
-
+## Video Link
+https://drive.google.com/file/d/16cHtIUIzxmvZmcALNuontJ094vGkDHXr/view?usp=sharing
 
 ## Screenshots
 <figure style="text-align: center;">
